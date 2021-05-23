@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtFullName"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:hint="Full Name"
+        android:textColor="#008AF8"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/callphone"
+        android:layout_width="80dp"
+        android:layout_height="42dp"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <ImageButton
+        android:id="@+id/sendMessage"
+        android:layout_width="93dp"
+        android:layout_height="45dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+</LinearLayout>
